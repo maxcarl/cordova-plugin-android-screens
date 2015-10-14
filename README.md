@@ -15,3 +15,7 @@ android:xlargeScreens="true"/>
 ```
 
 This example prevents the app to be used on small devices.
+
+## Platforms
+
+Applies to Android only.
