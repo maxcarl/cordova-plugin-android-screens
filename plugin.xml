@@ -19,8 +19,8 @@
     <config-file target="AndroidManifest.xml" parent="/*">
       <supports-screens
         android:smallScreens="false"
+        android:normalScreens="false"
         android:largeScreens="true"
-        android:normalScreens="true"
         android:xlargeScreens="true" 
         android:requiresSmallestWidthDp="600" /> <!-- only 7" tablets or higher -->
 
