@@ -21,7 +21,8 @@
         android:smallScreens="false"
         android:largeScreens="true"
         android:normalScreens="true"
-        android:xlargeScreens="true" />
+        android:xlargeScreens="true" 
+        android:requiresSmallestWidthDp="integer" /> <!-- only 7" tablets or higher -->
 
       <!-- Possible Values:
                 android:resizeable=["true"| "false"]
