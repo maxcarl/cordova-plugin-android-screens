@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-android-screens",
+  "version": "0.1.0",
+  "author": "Maximlian Carl",
+  "description": "Cordova Plugin to select screen sizes to be supported by your application.",
+  "cordova": {
+    "id": "cordova-plugin-android-screens",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxcarl/cordova-plugin-android-screens.git"
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "app",
+    "screen",
+    "screen-size",
+    "supports-screen"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxcarl/cordova-plugin-android-screens"
+  },
+  "homepage": "https://github.com/maxcarl/cordova-plugin-android-screens#readme"
+}

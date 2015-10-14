@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-android-screens" 
+        version="0.1.0" 
+        xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>Android Supports Screens</name>
+  <author>Maximilian Carl</author>
+  <description>
+    Cordova Plugin to select screen sizes to be supported by your application.
+  </description>
+  <keywords>
+    cordova, android, app, screen, screen-size, supports-screen
+  </keywords>
+  <license>MIT</license>
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+  <platform name="android">
+    <config-file target="AndroidManifest.xml" parent="/*">
+      <supports-screens        
+        android:smallScreens="false"
+        android:largeScreens="true"
+        android:normalScreens="true" 
+        android:xlargeScreens="true"/>      
+    </config-file>
+  </platform>
+</plugin>
