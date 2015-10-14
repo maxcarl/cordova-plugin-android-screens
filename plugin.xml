@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="cordova-plugin-android-screens" 
-        version="1.0" 
-        xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+<plugin id="cordova-plugin-android-screens"
+        version="1.1"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android">
   <name>Android Supports Screens</name>
   <author>Maximilian Carl</author>
@@ -17,11 +17,23 @@
   </engines>
   <platform name="android">
     <config-file target="AndroidManifest.xml" parent="/*">
-      <supports-screens        
+      <supports-screens
         android:smallScreens="false"
         android:largeScreens="true"
-        android:normalScreens="true" 
-        android:xlargeScreens="true"/>      
+        android:normalScreens="true"
+        android:xlargeScreens="true" />
+
+      <!-- Possible Values:
+                android:resizeable=["true"| "false"]
+                android:smallScreens=["true" | "false"]
+                android:normalScreens=["true" | "false"]
+                android:largeScreens=["true" | "false"]
+                android:xlargeScreens=["true" | "false"]
+                android:anyDensity=["true" | "false"]
+                android:requiresSmallestWidthDp="integer"
+                android:compatibleWidthLimitDp="integer"
+                android:largestWidthLimitDp="integer" 
+        See http://developer.android.com/guide/topics/manifest/supports-screens-element.html for more information -->
     </config-file>
   </platform>
 </plugin>
