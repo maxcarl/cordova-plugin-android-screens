@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-android-screens",
-  "version": "1.1",
+  "version": "1.2",
   "author": "Maximlian Carl",
   "description": "Cordova Plugin to select screen sizes to be supported by your application.",
   "cordova": {

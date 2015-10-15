@@ -12,14 +12,16 @@ cordova plugin add https://github.com/maxcarl/cordova-plugin-android-screens.git
 After installing you can customize the plugin.xml to fit your needs:
 
 ```xml
-<supports-screens        
-android:smallScreens="false"
-android:largeScreens="true"
-android:normalScreens="true" 
-android:xlargeScreens="true"/>
+<supports-screens android:smallScreens="false" />
 ```
 
-This example prevents the app to be used on small devices.
+This example prevents the app to be used on "small" screens.
+
+```xml
+<supports-screens android:normalScreens="false" />
+```
+
+This example prevents the app to be used on "normal" and smaller screens.
 
 ## Platforms
 
