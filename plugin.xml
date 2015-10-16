@@ -18,6 +18,7 @@
   <platform name="android">
     <config-file target="AndroidManifest.xml" parent="/*">
       <supports-screens
+        android:smallScreens="false"
         android:normalScreens="false"/> 
 
       <!-- Possible Values:
